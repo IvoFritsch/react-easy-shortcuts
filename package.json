@@ -57,5 +57,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "hotkeys-js": "^3.6.13"
+  }
 }

@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-easy-shortcuts'
+import Toggleable from './Toggleable';
+import OnOff from './OnOff';
+
 
 export default class App extends Component {
+
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Toggleable/>
+        <OnOff/>
       </div>
     )
   }
 }
+
